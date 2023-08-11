@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <body>
+      <div class="wraper">
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h1 class="card-title fw-bold">WeatherApp</h1>
+            <p class="card-text">
+              Enter the name of a city or country to see the current weather
+            </p>
+          </div>
+          <ul class="list-group list-group-flush d-none" id="lis">
+            <h3 id="result4" class="list-group-item text-capitalize"></h3>
+            <li id="result" class="list-group-item"></li>
+            <li id="result1" class="list-group-item"></li>
+            <li id="result2" class="list-group-item"></li>
+            <li id="result3" class="list-group-item"></li>
+          </ul>
+          <div class="card-body">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button
+                  class="btn btn-outline-secondary"
+                  id="runBtn"
+                  type="button"
+                >
+                  Search!
+                </button>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="city/county"
+                aria-label=""
+                aria-describedby="basic-addon1"
+                id="input1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </body>
+</html>
